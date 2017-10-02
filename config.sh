@@ -2,6 +2,7 @@
 #
 # Magisk Module Template Config Script
 # by topjohnwu
+#    mistakes added by tonyapuzzo
 #
 ##########################################################################################
 ##########################################################################################
@@ -26,7 +27,7 @@
 AUTOMOUNT=true
 
 # Set to true if you need to load system.prop
-PROPFILE=false
+PROPFILE=true
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
@@ -41,9 +42,9 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
-  ui_print "*******************************"
+  ui_print "**************************************"
+  ui_print " Assertive Display Calibration v0.0.6 "
+  ui_print "**************************************"
 }
 
 ##########################################################################################
@@ -54,16 +55,6 @@ print_modname() {
 # By default Magisk will merge your files with the original system
 # Directories listed here however, will be directly mounted to the correspond directory in the system
 
-# You don't need to remove the example below, these values will be overwritten by your own list
-# This is an example
-REPLACE="
-/system/app/Youtube
-/system/priv-app/SystemUI
-/system/priv-app/Settings
-/system/framework
-"
-
-# Construct your own list here, it will overwrite the example
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
 "
