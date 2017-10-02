@@ -1,7 +1,7 @@
-id=template
-name=Template Module
-version=v1
-versionCode=1
-author=topjohnwu
-description=A short description
+id=assertive-display
+name=Assertive Display
+version=v0.0.6
+versionCode=6
+author=tonyapuzzo
+description=Assertive Display Calibration
 template=1410
