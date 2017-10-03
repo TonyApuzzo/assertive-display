@@ -1,4 +1,4 @@
-@ECHO off
+ECHO off
 
 :: Full path to this script
 SET _mypath=%~dp0
