@@ -1,5 +1,6 @@
 ::
-:: Create the Magisk Module installable Zip archive.
+:: Create the Magisk Module installable Zip archive. (Windows)
+:: Requires the 7zip package installed and in the PATH
 ::
 ECHO off
 
