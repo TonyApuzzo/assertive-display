@@ -2,6 +2,7 @@
 #
 # Magisk Module Template Config Script
 # by topjohnwu
+#    mistakes added by tonyapuzzo
 #
 ##########################################################################################
 ##########################################################################################
@@ -26,7 +27,7 @@
 AUTOMOUNT=true
 
 # Set to true if you need to load system.prop
-PROPFILE=false
+PROPFILE=true
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
@@ -41,9 +42,9 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
-  ui_print "*******************************"
+  ui_print "**************************************"
+  ui_print " Assertive Display Calibration v0.0.7 "
+  ui_print "**************************************"
 }
 
 ##########################################################################################
