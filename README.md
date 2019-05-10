@@ -11,6 +11,7 @@ Use Magisk Manager to install and uninstall.
 ### Credits
 
 * topjohnwu for Magisk
+* TonyApuzzo
 * fedef12evo for the original idea: [Assertive display, improve adaptive brightness and battery life](https://forum.xda-developers.com/nexus-6/general/battery-tweaks-t3210546)
 * berndt_toast for the flashable zip that I cannibalized
 
