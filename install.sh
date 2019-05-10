@@ -122,9 +122,9 @@ REPLACE="
 # Set what you want to display when installing your module
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
-  ui_print "*******************************"
+  ui_print "**************************************"
+  ui_print " Assertive Display Calibration v0.0.7 "
+  ui_print "**************************************"
 }
 
 # Copy/extract your module files into $MODPATH in on_install.
