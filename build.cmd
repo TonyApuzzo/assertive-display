@@ -1,6 +1,6 @@
 ::
 :: Create the Magisk Module installable Zip archive. (Windows)
-:: Requires the 7zip package installed and in the PATH
+:: Requires the 7zip package installed and in the PATH %ProgramFiles%\7-zip\7z.exe
 ::
 ECHO off
 
@@ -28,7 +28,7 @@ pushd "%_mypath%"
 ::     |  |     |     |       |  Case sensitive
 ::     |  |     |     |       |  |    Exclude files matching *~ (vim backup files)
 ::     |  |     |     |       |  |    |
-"%ProgramFiles%/7z.exe" a -tzip -mx=9 -mcu=on -r -ssc -x!*~ -- "%_archive%" .\common\ .\META-INF\ .\system\ .\config.sh .\module.prop .\README.md
+"%ProgramFiles%\7-zip\7z.exe" a -tzip -mx=9 -mcu=on -r -ssc -x!*~ -- "%_archive%" .\common\ .\META-INF\ .\system\ .\config.sh .\module.prop .\README.md
 
 :: Restore the working directory
 popd
