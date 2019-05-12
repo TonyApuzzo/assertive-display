@@ -25,4 +25,4 @@ For more information about Magisk modules and repos, please check the [official 
 
 ### Disclaimer
 
-Use this module at your own risk, you are solely responsible if anything bad happens. This module should work on any Qualcomm based phone but has only been tested on Nexus 6 with OmniROM 7.1.1. It shouldn't hurt any phone to try this but if you have a problem you can disable the Magisk Module in TWRP or temporarily uninstall Magisk from Recovery, reboot, remove the module via Magisk Manager and then reboot again.
+Use this module at your own risk, you are solely responsible if anything bad happens. This module should work on any Qualcomm based phone but has only been tested on Nexus 6 with LineageOS 16. It shouldn't hurt any phone to try this but if you have a problem you can disable the Magisk Module in TWRP or temporarily uninstall Magisk from Recovery, reboot, remove the module via Magisk Manager and then reboot again.
