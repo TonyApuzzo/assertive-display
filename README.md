@@ -39,7 +39,7 @@ reboot again.
 
 #### v0.1.0 2019-05-11
 
-Refactor to Magisk 1900 template
+Refactor to Magisk 19.1 template
 
 #### v0.0.7
 
